@@ -1,0 +1,13 @@
+package 
+
+
+===================
+
+Static IMport 
+
+ import ststic packageName.className.*;
+
+import ststic packageName.className.ststicMember;
+
+
+
