@@ -1,3 +1,5 @@
+package Random_practice;
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
@@ -21,12 +23,13 @@ class FramePanel extends JFrame{
        setSize(500, 500);
        setVisible(true);
 
-       public static void main(String[] args) {
+       
+
+
+
+    }
+    public static void main(String[] args) {
         FramePanel ob = new FramePanel();
-
-       }
-
-
 
     }
 } 

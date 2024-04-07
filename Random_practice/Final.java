@@ -1,3 +1,5 @@
+package Random_practice;
+
 class Final {
     final int c = 34;
  //ERROR
@@ -5,7 +7,7 @@ class Final {
 
  //ERROR
     void x() {
-        c = 45;
+       // c = 45;
         System.out.println("value=" + c);
     }
  

@@ -1,3 +1,5 @@
+package Random_practice;
+
 public class LoopFor {
     public static void main(String[] args) {
         int i;

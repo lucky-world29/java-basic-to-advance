@@ -1,3 +1,5 @@
+package Random_practice;
+
 class parent {
 void eat() {
      System.out.println("Eat vegetable");

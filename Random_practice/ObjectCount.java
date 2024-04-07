@@ -1,3 +1,5 @@
+package Random_practice;
+
 public class ObjectCount 
 {  
 static int count=0;  

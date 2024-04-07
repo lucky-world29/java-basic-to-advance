@@ -1,5 +1,7 @@
+package Random_practice;
+
 import java.awt.*;
-import java.swing.*;
+// import java.swing.*;
 
 import javax.swing.JFrame;
 public class PanelExample{

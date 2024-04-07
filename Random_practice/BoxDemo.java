@@ -1,3 +1,5 @@
+package Random_practice;
+
 class Box{
     double width;
     double height;

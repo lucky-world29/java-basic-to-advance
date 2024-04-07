@@ -1,3 +1,5 @@
+package Random_practice;
+
 import java.awt.*;
 import javax.swing.*;
 class FrameDemo extends JFrame{

@@ -1,3 +1,5 @@
+package Random_practice;
+
 class Reverse2 {
 
 	// Function to swap values of two numbers

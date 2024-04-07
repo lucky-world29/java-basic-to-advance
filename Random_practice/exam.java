@@ -1,3 +1,5 @@
+package Random_practice;
+
 import java.io.*;
 import java.util.*;
 class student{

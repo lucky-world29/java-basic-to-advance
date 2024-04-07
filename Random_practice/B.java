@@ -1,3 +1,5 @@
+package Random_practice;
+
 // 8th june 2023  */
 class  A{
     int a=20;

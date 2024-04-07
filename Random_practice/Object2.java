@@ -1,3 +1,5 @@
+package Random_practice;
+
 public class Object2 {
     int x;
     float y;

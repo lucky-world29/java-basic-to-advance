@@ -1,3 +1,5 @@
+package Random_practice;
+
 import java.awt.*;    
   
 // extending Frame class to our class AWTExample1  
