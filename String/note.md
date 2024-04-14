@@ -114,3 +114,53 @@ The above code, converts a char array into a String object. And displays the Str
 
 
 1          	char charAt(int index)	                It returns char value for the particular index
+
+
+
+
+
+
+
+================================================
+
+
+
+Java String startsWith() and endsWith() method
+The method startsWith() checks whether the String starts with the letters passed as arguments and endsWith() method checks whether the String ends with the letters passed as arguments.
+
+example 
+
+   
+
+    
+ public class Stringoperation3  
+{  
+public static void main(String ar[])  
+{  
+String s="Love";    
+ System.out.println(s.startsWith("Sa"));//true    
+ System.out.println(s.endsWith("n"));//true    
+}  
+}  
+
+
+
+Java String charAt() Method
+The String class charAt() method returns a character at specified index.
+
+
+public class Stringoperation4  
+{  
+public static void main(String ar[])  
+{  
+String s="Love";    
+System.out.println(s.charAt(0));//S    
+System.out.println(s.charAt(3));//h    
+}  
+}
+
+
+
+
+Java String length() Method
+The String class length() method returns length of the specified String.
