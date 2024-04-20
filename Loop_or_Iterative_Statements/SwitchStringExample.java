@@ -1,4 +1,4 @@
-package SWITCH;
+package Loop_or_Iterative_Statements;
 
 
 //Java Program to demonstrate the use of Java Switch  

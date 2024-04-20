@@ -1,4 +1,4 @@
-package SWITCH;
+package Loop_or_Iterative_Statements;
 
 public class example1 {
     public static void main(String[] args) {  

@@ -1,4 +1,4 @@
-package Loop_or_Itarative_Statements;
+package Loop_or_Iterative_Statements;
 import java.util.Scanner;
 
 public class SwitchMonthExample {

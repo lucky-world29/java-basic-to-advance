@@ -1,4 +1,4 @@
-package SWITCH; 
+package Loop_or_Iterative_Statements; 
 
 /**
  * SwitchExample2
