@@ -1,10 +1,14 @@
-package SWITCH;
+package Loop_or_Itarative_Statements;
+import java.util.Scanner;
 
 public class SwitchMonthExample {
     public static void main(String[] args) {    
         //Specifying month number  
-        int month=7;
         
+        
+        Scanner sc = new Scanner(System.in);
+
+        int month=sc.nextInt();
         
         String monthString="";  
         //Switch statement  

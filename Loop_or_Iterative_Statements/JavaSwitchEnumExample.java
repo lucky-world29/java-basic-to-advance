@@ -1,4 +1,4 @@
-package SWITCH;
+package Loop_or_Iterative_Statements;
 
 public class JavaSwitchEnumExample {
     public enum Day {  Sun, Mon, Tue, Wed, Thu, Fri, Sat  }    
