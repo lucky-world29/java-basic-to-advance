@@ -5,9 +5,9 @@ package
 
 Static IMport 
 
- import ststic packageName.className.*;
+ import Static packageName.className.*;
 
-import ststic packageName.className.ststicMember;
+import Static packageName.className.static member;
 
 
 
