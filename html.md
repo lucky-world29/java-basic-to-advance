@@ -165,3 +165,59 @@ The alt attribute of <img> provides an alternate text for an image
 The style attribute is used to add styles to an element, such as color, font, size, and more
 The lang attribute of the <html> tag declares the language of the Web page
 The title attribute defines some extra information about an element
+
+===============================
+
+HTML Display
+You cannot be sure how HTML will be displayed.
+
+Large or small screens, and resized windows will create different results.
+
+With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+
+The browser will automatically remove any extra spaces and lines when the page is displayed:
+
+=================
+
+HTML Horizontal Rules
+The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+
+The <hr> element is used to separate content (or define a change) in an HTML page:
+
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+
+The <hr> tag is an empty tag, which means that it has no end tag.
+====================================
+HTML Line Breaks
+The HTML <br> element defines a line break.
+
+Use <br> if you want a line break (a new line) without starting a new paragraph:
+
+Example
+<p>This is<br>a paragraph<br>with line breaks.</p>
+
+The <br> tag is an empty tag, which means that it has no end tag.
+
+====================
+
+The Poem Problem
+[pre-formatted tag]
+
+The HTML <pre> element defines preformatted text.
+
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+
+<pre>
+          My Bonnie lies over the ocean.
+
+      My Bonnie lies over the sea.
+
+          My Bonnie lies over the ocean.
+
+      Oh, bring back my Bonnie to me.
+</pre>
