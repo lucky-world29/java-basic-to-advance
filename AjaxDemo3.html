@@ -43,7 +43,7 @@
                 let product = '';
                 for (let i = 0; i < data.length; i++) {
 
-                    /* product += '<div class="col-4">';
+                    product += '<div class="col-4">';
                     product += '<div class="card m-2">';
                     product += '<div class="card-header">';
                     product += data[i].id;
@@ -58,29 +58,7 @@
                     product += '<li class="list-group-item"><img src="' + data[i].image + '" alt="Image" style="height: 50px; width: 50px;"></li>';
                     product += '</ul>';
                     product += '</div>';
-                    product += '</div>';*/
-
-                    product += '<div class="col-4">';
-                    product += '<div class="card m-2">';
-                    product += '<div class="card">';
-                   // product += '<img src=" '+data[i].image+ ' class="card-img-top" alt="img" style="height: 50px; width: 50px>';
-                    // product += '<img class="card-img float" src="' + data[i].image + '" alt="Image">';
-                    product += '<li class="list-group-item"><img src="' + data[i].image + '" alt="Image" style="height: 80px; width:80px;"></li>';
-                    product += '<div class="card-body">';
-                    product += '<h5 class="card-title">'+data[i].title+'</h5>';
-                    product += '<p class="card-text">'+data[i].description+'</p></div>';
-                    product += '</div>'
-                    product += '<ul class="list-group list-group-flush">';
-                    product +='<li class="list-group-item">' + data[i].category + '</li>'
-                    product +='<li class="list-group-item">' + data[i].rate + '</li>'
-                    product +='<li class="list-group-item">' + data[i].price + '</li>'
-                    product += '</ul>'
-                    product += '<div class="card-body">'
-                    product +=  '<a href="#" class="card-link">'+"link"+'</a>'
-                    product += '</div>'
-                    product += '</div>'
-                    product += '</div>'
-                    product += '</div>'
+                    product += '</div>';
                 }
                 console.log(product);
                 d.innerHTML = product;
