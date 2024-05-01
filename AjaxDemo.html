@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="data-area">
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            //alert("Page Ready");
+            var request = $.ajax({
+                method: "GET",
+                url: "https://fakestoreapi.com/users",
+                datatype: JSON
+            });
+            request.done(function (data) {
+                console.log(data);
+                let d = document.getElementById("data-area");
+
+                let user = '';
+                for (let i = 0; i < data.length; i++) {
+                    user += '<div class="col-4">';
+                    user += '<div class="card m-2">';
+                    user += '<div class="card-header">';
+                    user += data[i].name.firstname.toUpperCase() + ' ' + data[0].name.lastname.toUpperCase();
+                    user += '</div>';
+                    user += '<ul class="list-group list-group-flush">';
+                    user += '<li class="list-group-item">' + data[i].email + '</li>';
+                    user += '<li class="list-group-item">' + data[i].phone + '</li>';
+                    user += '</ul>';
+                    user += '</div>';
+                    user += '</div>';
+                    // user +=  '<p>ID:'+data[i].id+'</p>';
+                    // user +=  '<p>NAME:'+data[i].name.firstname.toUpperCase()+' '+data[0].name.lastname.toUpperCase()+'</p>';
+                    // user +=  '<p>PHONE:'+data[i].phone+'</p>';
+                    // user +=  '<p>EMAIL:'+data[i].email+'</p>';
+                }
+                console.log(user);
+                d.innerHTML = user;
+            });
+            request.fail(function (err) {
+                console.log(err);
+            });
+        }
+        );
+
+    </script>
+</body>
+
+</html>
