@@ -22,7 +22,7 @@ public class Example1 extends Thread{
         t2.setName("B");
         t3.setName("C");
         t1.start();
-        t1.isDaemon();
+        // t1.isDaemon();
 
         try {
             t1.join();
