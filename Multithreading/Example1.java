@@ -2,7 +2,7 @@ package Multithreading;
 
 public class Example1 extends Thread{
     public void run(){
-        for(int i=1;i<10;i++){
+        for(int i=1;i<=5;i++){
             try {
                 Thread.sleep(500);
             } catch (Exception e) {
@@ -23,7 +23,7 @@ public class Example1 extends Thread{
         t3.setName("C");
 
         t1.start();
-        // t1.isDaemon();
+        t1.isDaemon();
 
         try {
             t1.join();     // here the join method used
@@ -31,6 +31,12 @@ public class Example1 extends Thread{
             System.out.println(e);
         }
         t2.start();
+        try {
+            t2.join(5500);     // here the join method used
+        } catch (Exception e) {
+            System.out.println(e);
+        }
         t3.start();
     }
 }
+
