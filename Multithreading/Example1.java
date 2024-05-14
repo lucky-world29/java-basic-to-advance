@@ -21,11 +21,12 @@ public class Example1 extends Thread{
         t1.setName("A");
         t2.setName("B");
         t3.setName("C");
+
         t1.start();
         // t1.isDaemon();
 
         try {
-            t1.join();
+            t1.join();     // here the join method used
         } catch (Exception e) {
             System.out.println(e);
         }
