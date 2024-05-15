@@ -1,18 +1,17 @@
 1)What is java?
-Ans-> java is a very Simple ,high level,secured,multithreaded,platform independent,object oriented pogramming language,
+Ans-> java is a very Simple ,high level,secured,multithreaded,platform independent,object oriented programming language,
 it was developed by james Gosling in sun microSystem in 1990's for developing internet applications. it is first
 version is released in january 23,1996.
 
 2)why java ?
-Ans-> java programming language mainly desined to develop internet application by providing platform independency, using
-java we can develope both standalone and internt application .
+Ans-> java programming language mainly designed to develop internet application by providing platform independency, using
+java we can develope both standalone and internet application .
 
 3)who invented java ?
-Ans-> java is invented by a Scientiest James Gosling in Sun Microsystem .For developing internet application.
+Ans-> java is invented by a Scientist James Gosling in Sun Microsystem .For developing internet application.
 
-4)what is the abbriviation of java?
-Ans-> There is no abbriviation for java .The Development Team of java has just Choosen this name .The name java Scecifically
-doesn't have any meaning rather it refers to the Hot Aromatic drink Coffee,This reason Java programming language icon is
+4)what is the abbreviation of java?
+Ans-> There is no abbreviation for java .The Development Team of java has just Chosen this name .The name java Specifically doesn't have any meaning rather it refers to the Hot Aromatic drink Coffee,This reason Java programming language icon is
 coffee cup.
 
 5)What is Source Code ?
@@ -20,13 +19,13 @@ Ans-> Source code is the set of instructions and statements written by a program
 code is later translated into machine language by a compiler. The translated code is referred to as object code
 
 6)What is Compiled Code ?
-Ans-> Compiler generated programm that is Converted from Source Code is called Compiled Code.
+Ans-> Compiler generated program that is Converted from Source Code is called Compiled Code.
 
 7)What is Compiler ?
 Ans-> The compiler is software that converts a program written in a high-level language (Source Language) to a low-level
 language (Object/Target/Machine Language/0’s, 1’s) at Once.
 
-8)What is Interperter?
+8)What is Interpreter?
 Ans-> it is also translate the program that Convert Source code in to Machine Language but Line By Line.
 
 9)What is Compilation ?
@@ -47,7 +46,7 @@ executed by jvm.
 Ans-> java is called Technology because it provides many Predefined for Simplifying java projects development.
 
 14)Why the name OAK renamed to JAVA ?
-Ans-> They were unabled to register this progtamming languagewith name OAK ,because already some other products is registred
+Ans-> They were unable to register this programming language with name OAK ,because already some other products is registered.
 with the same name ,So they renamed to java.
 
 15)Who invented Java Programming?
@@ -347,13 +346,13 @@ a.Client-side executing applications
 b.server-side executing applications
 
 61)what is the main features of programming language to develope internet application?
-Ans-> Platform independency because an internet application must run in all operating systems irespective of where it is compiled.
+Ans-> Platform independency because an internet application must run in all operating systems irrespective of where it is compiled.
 
-62)Why c and c++ programming language can not support internet application devlopement?
+62)Why c and c++ programming language can not support internet application development?
 Ans-> Because they are platform dependent .
 
-63)why c and c++ programming language were developed as platform dependent appllication why not as platform independent application?
-Ans-> By the times c/c++ programming languages are devleoped there was no internet ,platformp independency features is
+63)why c and c++ programming language were developed as platform dependent application why not as platform independent application?
+Ans-> By the times c/c++ programming languages are developed there was no internet ,platform independency features is
 only required for developing internet applications.
 64)why c/c++ program compiled code can not execute in all os?
 Ans-> in these programming languages the compiled code is machine language which is understandable only by the current os.Thus the
