@@ -374,3 +374,4 @@ c.Secured ,accurated,efficient fast transaction .
     3.Control flow Statement- for controling flow of execution .
     4.Exception handling Statements-for throwing and catching and exception.
     The above 4 concepts are technically called as language fundamentals.
+
