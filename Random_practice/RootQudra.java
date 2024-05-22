@@ -25,7 +25,7 @@ public class RootQudra {
         if (determinant>0) {
             firstroot = (-b+sqrt)/(2*a);
             secondroot = (-b-sqrt)/(2*a);
-            System.out.println("roots are "+"1st root :"+firstroot+"/n"+"2nd root :"+secondroot);
+            System.out.println("roots are "+"1st root :"+firstroot+"/n"+"2nd root :"+secondroot); 
         }else if(determinant==0){
             System.out.println("root is "+(-b+sqrt)/(2*a));
         }
