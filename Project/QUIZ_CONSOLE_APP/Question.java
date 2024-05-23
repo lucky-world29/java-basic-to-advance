@@ -69,7 +69,4 @@ public class Question {
                 + ", opt4=" + opt4 + ", answer=" + answer + "]";
     }
 
-
-    
-
 }

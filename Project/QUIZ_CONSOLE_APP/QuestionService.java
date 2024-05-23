@@ -39,20 +39,20 @@ public class QuestionService {
     }
 
     //===================================
-    public void printScore() {
-        int score = 0;
+    // public void printScore() {
+    //     int score = 0;
 
-        for (int i=0;i<questions.length;i++) {
-            Question[] que = new Question[i];
-            String actualanswer = que.getAnswers[i];
+    //     for (int i=0;i<questions.length;i++) {
+    //         Question[] que = new Question[i];
+    //         String actualanswer = que.getAnswers[i];
 
-            String useranswer = selection[i];
+    //         String useranswer = selection[i];
 
-            if (actualanswer.equals(useranswer)) {
-                score++;
-            }
+    //         if (actualanswer.equals(useranswer)) {
+    //             score++;
+    //         }
 
-        }
-        System.out.println("Your score " + score);
-    }
+    //     }
+    //     System.out.println("Your score " + score);
+    // }
 }
