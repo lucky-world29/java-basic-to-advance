@@ -1,20 +1,19 @@
 package Random_practice;
 
 public class for_each {
-    String[] str1 = new String[5];
-    // str[0]="Abi";
-    // str[0]= "Ani";
-    // str[1]= "Sam";
-    // str[2]= "Joe";
+    static String[] str1 = new String[5];
+    
 
-    String[] str2 = { "Ani", "Sam", " Joe" };
-
-    String[] strAr = new String[] { "Ani", "Sam", "Joe" }; // inline initialization
-
-    // String[] strAr = {"Ani", "Sam", "Joe" };
-
-    public static void main(String[] args) {
-        
+    static public void aa(){
+        str1[0]="a";
+        System.out.println(str1);
     }
 
+    // String[] str2 = { "Ani", "Sam", " Joe" };
+    // String[] strAr = new String[] { "Ani", "Sam", "Joe" }; // inline initialization
+    public static void main(String[] args) {
+        aa();
+        System.out.println("main() ");
+    }
 }
+

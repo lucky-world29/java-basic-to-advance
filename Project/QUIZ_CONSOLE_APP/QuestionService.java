@@ -18,6 +18,7 @@ public class QuestionService {
 // =================================
     public void playQuiz(){
         int i =0;
+        Scanner sc = new Scanner(System.in) ;
         for(Question q : questions ){
             System.out.println(q.getId());
             System.out.println(q.getQuestion());
@@ -25,13 +26,8 @@ public class QuestionService {
             System.out.println(q.getOpt2());
             System.out.println(q.getOpt3());
             System.out.println(q.getOpt4());
-
-
-            try (Scanner sc = new Scanner(System.in)) {
-                selection[i] = sc.nextLine();
-            }
+            selection[i] = sc.nextLine();
             i++;
-
         }
         for(String s : selection){
             System.out.println(s);
@@ -39,20 +35,20 @@ public class QuestionService {
     }
 
     //===================================
-    // public void printScore() {
-    //     int score = 0;
+    public void printScore() {
+        int score = 0;
 
-    //     for (int i=0;i<questions.length;i++) {
-    //         Question[] que = new Question[i];
-    //         String actualanswer = que.getAnswers[i];
+        for (int i=0;i<questions.length;i++) {
+        
+            String actualanswer = questions[i].getAnswer();
 
-    //         String useranswer = selection[i];
+            String useranswer = selection[i];
 
-    //         if (actualanswer.equals(useranswer)) {
-    //             score++;
-    //         }
+            if (actualanswer.equals(useranswer)) {
+                score++;
+            }
 
-    //     }
-    //     System.out.println("Your score " + score);
-    // }
+        }
+        System.out.println("Your score " + score);
+    }
 }
