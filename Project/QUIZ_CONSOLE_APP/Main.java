@@ -8,4 +8,5 @@ public class Main {
         service.playQuiz();
         service.printScore();
     }
+    
 }
