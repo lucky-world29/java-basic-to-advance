@@ -41,19 +41,21 @@ public class Root_Quadratic {
 
         int c = Integer.parseInt(coeffX);
         int d = Integer.parseInt(coeffY);
+
+        // System.out.println();
     }
 
-    public float nonLinear(int x,int y){
-        x=this.x;
-        y=this.y;
-        int sum=x+y;
-        System.out.println(sum);
-        return 0;
-    }
+    // public float nonLinear(int x,int y){
+    //     x=this.x;
+    //     y=this.y;
+    //     int sum=x+y;
+    //     System.out.println(sum);
+    //     return 0;
+    // }
 
     public static void main(String[] args) {
         Root_Quadratic ob = new Root_Quadratic();
-        ob.nonLinear(4,4);
+        //ob.nonLinear(4,4);
         Eq1();
         Eq2();
     }
