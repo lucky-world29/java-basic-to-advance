@@ -1,3 +1,5 @@
+package Random_practice;
+
 public class LowerUpperDemo {
         public static void main(String args[]) {
                 String input = "java is best";
