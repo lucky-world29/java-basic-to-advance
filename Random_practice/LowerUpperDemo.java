@@ -15,6 +15,7 @@ public class LowerUpperDemo {
                 // print the string array
                 for (int i = 0; i < strArr.length; i++) {
                         System.out.print(strArr[i]);
-                }
+                }                        
         }
 }
+
