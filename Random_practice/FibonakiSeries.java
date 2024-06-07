@@ -12,4 +12,11 @@ public class FibonakiSeries {
         System.out.println(f);
 
     }
+    abstract class xx {
+        void pp(){
+            
+        }
+        
+        abstract int aa();
+    }
 }
