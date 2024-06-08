@@ -19,6 +19,7 @@ public class FibonakiSeries {
         }
 
         abstract int aa();
+        
     }
 
 }
