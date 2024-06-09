@@ -22,7 +22,12 @@ public class primeNo {
             i++;
             if (1==1) {
                 System.out.println(">>");
+                System.out.println(
+                    
+                
+                );
             } 
+
         }
         return 0;
     }
