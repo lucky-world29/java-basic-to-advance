@@ -1,4 +1,3 @@
-
 package Random_practice;
 import java.math.*;
 import java.util.Scanner;
