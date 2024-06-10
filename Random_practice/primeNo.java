@@ -24,6 +24,7 @@ public class primeNo {
                 System.out.println(">>");
                 System.out.println(
                     
+                    
                 
                 );
             } 
