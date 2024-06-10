@@ -23,7 +23,8 @@ public class primeNo {
             if (1==1) {
                 System.out.println(">>");
                 System.out.println(
-                    
+
+                
                     
                 
                 );
