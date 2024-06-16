@@ -2,7 +2,7 @@ package Random_practice;
 
 public class SuperKey {
     public static void main(String[] args) {
-        
+        // use the super keyword but i do not know how
     }
 }
 
