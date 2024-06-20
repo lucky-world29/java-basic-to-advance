@@ -76,6 +76,7 @@ class Desktop implements Computer
 }
 class Developer
 {
+    
 //	public void devApp(Laptop lap)
 	public void devApp(Computer lap)
 	{
@@ -93,7 +94,7 @@ public class Demo {
         
         Developer navin=new Developer();
         navin.devApp(lap);
-        
+
 
         
     }
