@@ -6,10 +6,21 @@ public class interfacee {
     }
 }
 
-interface A{
+abstract class x {
+    abstract void mm();
+
+    void cc(){
+
+    }
+} 
+
+
+
+interface A  {
+    abstract void mm();
 }
 interface B extends A{
 }
 
-class C implements A{
+class C {
 }
