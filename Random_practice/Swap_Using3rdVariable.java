@@ -1,6 +1,6 @@
 package Random_practice;
 
-class Reverse {
+class Swap_Using3rdVariable {
 
 	// Function to swap two numbers
 	// Using temporary variable

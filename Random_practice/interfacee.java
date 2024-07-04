@@ -6,7 +6,7 @@ public class interfacee {
     }
 }
 
-abstract class x {
+abstract class x { 
     abstract void mm();
 
     void cc(){
