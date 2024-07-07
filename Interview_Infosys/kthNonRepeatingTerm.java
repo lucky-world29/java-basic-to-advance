@@ -31,7 +31,7 @@ public class kthNonRepeatingTerm {
     public static void main(String[] args)
     {
         
-        String str = "geeksforgeeks";
+        String str = "lucky number";
         int k = 3;
         char result = kthNonRepeatingChar(str, k);
 
