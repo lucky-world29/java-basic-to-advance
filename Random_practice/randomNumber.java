@@ -7,3 +7,4 @@ public class randomNumber {
         System.out.println(rand1);
     }
 }
+
