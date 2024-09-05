@@ -1,3 +1,5 @@
+package ArraY_Reverse;
+
 /* 
 STEP 1: START
 STEP 2: INITIALIZE arr[] = {1, 2, 3, 4, 5}

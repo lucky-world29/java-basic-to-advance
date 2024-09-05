@@ -1,3 +1,8 @@
+<<<<<<< Tabnine <<<<<<<
+package ArraY_Reverse;//-
+package Array_Reverse;//+
+>>>>>>> Tabnine >>>>>>>
+
 /*
  * STEP 1: START
 STEP 2: INITIALIZE arr[] ={5, 2, 8, 7, 1 }.
