@@ -7,3 +7,5 @@ System.out.println(s.toLowerCase());//love
 System.out.println(s);//Love(no change in original)    
 }  
 }
+
+
