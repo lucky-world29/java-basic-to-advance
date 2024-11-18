@@ -19,7 +19,7 @@ It can be defined as :
 eg
 
 class A {
-P_S\_\_V_M(String args[]){
+PSVM(String args[]){
 int a =10;
 int b =20;
 
