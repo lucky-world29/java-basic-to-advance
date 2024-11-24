@@ -57,3 +57,4 @@ class C extends B{
     // Try this with main method in it  // it will move to default constructor of class B
     
 }
+
