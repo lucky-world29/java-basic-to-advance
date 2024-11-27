@@ -7,5 +7,3 @@ public class java1 {
         System.out.println(a);
     }
 }
-
-
