@@ -1,4 +1,3 @@
-package Random_practice;
 
 class Final {
     final int c = 34;

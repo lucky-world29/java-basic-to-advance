@@ -1,9 +1,5 @@
 // This is still pending . Need to complete this code .......
 
-
-
-package Random_practice;
-
 // class Box{
 //     double width;
 //     double height;
@@ -13,16 +9,23 @@ package Random_practice;
 class A{
     int b;
     int c;
+
+    public A(int b, int c) {
+        this.b = b;
+        this.c = c;
+        System.out.println(b + c);
+    }
 }
 
 class B{
     public void innerB(){
-        A a = new A();
+        A a = new A(0, 0);
         a.b=9;
         a.c=12;
     }
 }
 
+@SuppressWarnings("unused")
 class C {
 
 }

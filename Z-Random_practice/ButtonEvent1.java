@@ -1,4 +1,3 @@
-package Random_practice;
 
 /*import java.awt.Button;
 import java.awt.Frame;
@@ -25,8 +24,8 @@ public class ButtonEvent1 extends Frame implements ActionListener {
 }*/
 
  import java.awt.Button;
-import java.awt.Frame;
 import java.awt.Color;
+import java.awt.Frame;
 import java.awt.event.*;
 
 public class ButtonEvent1 extends Frame implements ActionListener {

@@ -1,4 +1,3 @@
-package Random_practice;
 
 public class InnerClass2 {
     public static void main(String[] args) {

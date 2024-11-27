@@ -1,4 +1,4 @@
-package Random_practice;
+
 import java.util.Scanner;
 public class Root_Quadratic {
 

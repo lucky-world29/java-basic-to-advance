@@ -1,4 +1,3 @@
-package Random_practice;
 
 /*import java.awt.*;
 import javax.swing.*;
@@ -38,8 +37,8 @@ class FrameDemo1 extends JFrame implements ActionListener{
 
 
 import java.awt.*;
-import javax.swing.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 class FrameDemo1 extends JFrame implements ActionListener {
 JButton b1;

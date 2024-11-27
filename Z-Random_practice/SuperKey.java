@@ -1,4 +1,3 @@
-package Random_practice;
 
 public class SuperKey {
     public static void main(String[] args) {

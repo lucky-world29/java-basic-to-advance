@@ -1,4 +1,3 @@
-package Random_practice;
 
 import java.util.*;
 class A{

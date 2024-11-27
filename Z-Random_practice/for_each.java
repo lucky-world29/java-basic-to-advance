@@ -1,4 +1,3 @@
-package Random_practice;
 
 public class for_each {
     static String[] str1 = new String[5];

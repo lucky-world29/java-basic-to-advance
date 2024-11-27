@@ -1,4 +1,3 @@
-package Random_practice;
 
 public class Box  {
     double width;

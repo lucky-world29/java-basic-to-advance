@@ -1,4 +1,3 @@
-package Random_practice;
 
 public class practice_by_hariBhai {
     static int add(int x, int y){

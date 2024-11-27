@@ -1,8 +1,7 @@
-package Random_practice;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class EventHandlingExample extends JFrame {
     private JLabel mouseLabel;

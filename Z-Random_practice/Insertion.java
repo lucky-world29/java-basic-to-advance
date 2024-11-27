@@ -1,7 +1,5 @@
-package Random_practice;
 
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class Insertion {
 

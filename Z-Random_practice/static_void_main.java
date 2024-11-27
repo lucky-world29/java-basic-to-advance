@@ -1,4 +1,3 @@
-package Random_practice;
 
 public class static_void_main {
     static public void main(){

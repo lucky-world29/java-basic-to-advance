@@ -1,8 +1,6 @@
-package Random_practice;
 
 import java.awt.*;
 import javax.swing.*;
-import java.awt.event.*;
 class FramePanel extends JFrame{
     JButton bt1,bt2;
     FramePanel(){
