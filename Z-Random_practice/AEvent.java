@@ -1,5 +1,3 @@
-package Random_practice;
-
 
 public class AEvent {
 

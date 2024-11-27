@@ -1,4 +1,3 @@
-package Random_practice;
 
 import java.util.Scanner;
 class Assignment1 {
@@ -45,12 +44,13 @@ static void find_prime(int x){
 }
   public static void main(String args[]){
     
-      Scanner sc=new Scanner(System.in);
-  System.out.println("enter a number");
-      int num1=sc.nextInt();
-         even_odd(num1);
-         negative_positive(num1);
-         find_prime(num1);
+      try (Scanner sc = new Scanner(System.in)) {
+        System.out.println("enter a number");
+            int num1=sc.nextInt();
+               even_odd(num1);
+               negative_positive(num1);
+               find_prime(num1);
+      }
     }
   }
 
