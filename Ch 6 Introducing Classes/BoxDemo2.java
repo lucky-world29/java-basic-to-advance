@@ -25,7 +25,8 @@ public class BoxDemo2 {
 
     vol = mybox2.width * mybox2.height * mybox2.depth;
     System.out.println("Volume is "+ vol);
-    
+   
+
     
     }
 
